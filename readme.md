@@ -11,8 +11,9 @@ This is a tutorial on how to enable the BepInEx framework in the game, Project H
    - ![Copy Address](./images/4.png)
  - In the game's main directory, confirm the presence of the `winhttp.dll` file, `doorstop_config.ini` file, and `BepInEx` directory. Then, double-click to enter the **BepInEx** directory.
    - ![Check Files](./images/5.png)
- - Find the **plugin** directory and double-click it to enter it. If you can't find it, create a new one.
+ - Find the **plugins** directory and double-click it to enter it. If you can't find it, create a new one.
    - ![Pre-Install Plugin](./images/6.png)
- - Assume that the mod description asks you to copy `SoManyCodeInject.dll`. Then find it and copy it directly to the **plugin** directory you just opened.
+     > **Note:** The directory name shown in the image above was labeled as `plugin` (singular) — this was a typo in the earlier version of this guide. The correct directory name should be `plugins` (plural). Sorry for the confusion!
+ - Assume that the mod description asks you to copy `SoManyCodeInject.dll`. Then find it and copy it directly to the **plugins** directory you just opened.
    - ![Install Plugin](./images/7.png)
  - Enjoy the game!
